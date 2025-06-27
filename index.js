@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) =>{
-    res.send({hi : 'node express' });
+    res.send({hi : 'Current node express for June 25' });
 });
 
 const PORT = process.env.PORT || 5000;
